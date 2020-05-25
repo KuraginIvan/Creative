@@ -1,0 +1,654 @@
+@font-face {
+font-family: Lato;
+src: url(../fonts/Lato-Bold.ttf);
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: Baronneue;
+src: url(../fonts/baronneue.ttf);
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: Bebas;
+src: url(../fonts/BebasNeueBold.otf);
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: latoregular;
+src: url(../fonts/latoregular.ttf);
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: HarabaraBold;
+src: url(../fonts/HarabaraBold.ttf);
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: Lato-heavy;
+src: url(../fonts/lato_heavy.ttf);
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: Lato-light;
+src: url(../fonts/lato_light.ttf);
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: Lato-regular;
+src: url(../fonts/Lato-regular.ttf);
+font-weight: bold;
+font-style: normal;
+}
+
+@-ms-viewport {
+width: device-width;
+}
+@-o-viewport {
+width: device-width;
+}
+@viewport {
+width: device-width;
+}
+
+div.container {
+	width: 1400px;
+	margin: auto;
+	position: relative;
+}
+
+body {
+	background-color: white;
+	margin: 0;
+}
+
+/* HEADER */
+.index-header::after {
+	content: '';
+	width: 0;
+	height: 0;
+	border: 5rem solid transparent;
+	border-top-color: black;
+	position: absolute;
+	left: 380px;
+	z-index: 0;
+}
+
+.index-header::before {
+	content: '';
+	width: 0;
+	height: 0;
+	border: 12rem solid transparent;
+	border-top-color: rgb(1, 158, 219);
+	position: absolute;
+	left: 90px;
+	z-index: 1;
+}
+
+.logo-header>img {
+	position: absolute;
+	left: 185px;
+	top: 17px;
+}
+
+.right-element::before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 850px solid #f2f2f2;
+	border-left: 850px solid transparent;
+	position: absolute;
+	right: 0;
+	z-index: 0;
+}
+
+.left-element::before {
+	content: '';
+	width: 0;
+	height: 0;
+	border: 315px solid transparent;
+	border-left-color: #f2f2f2;
+	position: absolute;
+	top: 230px;
+	left: 0;
+	z-index: 0;
+}
+
+ul.index-navigation--ul {
+	display: flex;
+	font-family: Lato;
+	font-size: 12px;
+	letter-spacing: 0.025em;
+	list-style-type: none;
+	float: right;
+	padding-right: 160px;
+	padding-top: 13px;
+	margin: 0;
+}
+ul.index-navigation--ul>li {
+	margin: 16px;
+	z-index: 1;
+}
+
+.index-header {
+	height: 640px;
+	background-color: #ffffff;
+}
+
+.logo-header {
+	float: left;
+	text-align: center;
+	width: 600px;
+	position: relative;
+	color: white;
+	z-index: 2;
+}
+.logo-header>h1 {
+	font-family: Bebas;
+	font-size: 40px;
+	line-height: 28px;
+	margin: 0;
+	padding-top: 26px;
+}
+.logo-header>span {
+	font-family: Baronneue;
+	font-size: 15px;
+	line-height: 9px;
+	letter-spacing: 0.05em;
+}
+
+/* --- SECTION 'WE ARE BEST' --- */
+
+section.section--we_are_best {
+	position: absolute;
+	left: 290px;
+	top: 9%;
+	z-index: 1;
+}
+
+h2.heading1--we_are_best {
+	font-family: Lato;
+	font-size: 34px;
+	color: #019edb;
+	margin: 0;
+}
+
+.section-heading1--text {
+	margin: 0;
+	z-index: 1;
+	color: white;
+	font-family: latoregular;
+	font-size: 15px;
+	line-height: 23px;
+	white-space: pre-line;
+}
+
+.blue_romb {
+	position: absolute;
+    top: -140px;
+    right: -50px;
+}
+.woman_romb {
+	position: absolute;
+	right: 0;
+	top: 80px;
+}
+.section--lorem_ipsum {
+	height: 1216px;
+	background-image: url("../images/background_black_wall.jpg");
+	background-size:
+}
+
+.header_rombs {
+	z-index: 1;
+	position: absolute;
+	left: 70px;
+	top: 290px;
+}
+
+/* --- BLACK WALL --- */
+
+h2.heading2--1_lorem_ipsum {
+	margin: 0;
+	color: white;
+	white-space: pre-line;
+	font-family: Lato;
+	font-size: 24px;
+	letter-spacing: 0.025em;
+}
+
+h2.heading2--1_lorem_ipsum:first-letter {
+	font-family: Lato;
+	font-size: 83px;
+	padding-left: 75px;
+}
+
+p.section-heading2--text {
+	color: white;
+	white-space: pre-line;
+}
+
+.container_for_heading2 {
+	position: relative;
+	z-index: 1;
+	top: 160px;
+	left: 31%;
+}
+.woman_black-white {
+	position: relative;
+	left: 41%;
+	top: -200px;
+}
+
+.section-heading--why_choise_us {
+	color: white;
+	font-family: Lato;
+	font-size: 37px;
+	letter-spacing: 0.025em;
+	margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-bottom: 0;
+}
+
+.section-heading--lorem_ipsum_dolor {
+	color: white;
+	font-family: Lato;
+	font-size: 24px;
+	letter-spacing: 0.025em;
+	margin: 0;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.section-div--feature--text {
+	color: white;
+	white-space: pre-line;
+	margin-left: 30px;
+}
+
+.section-div--about_us--text {
+	color: white;
+	white-space: pre-line;
+	margin-left: 30px;
+}
+
+.container--why_you_chooise_us {
+	position: relative;
+	left: auto;
+	right: auto;
+	bottom: 180px;
+}
+
+.section-div-heading--feature {
+	color: white;
+	font-family: HarabaraBold;
+	font-size: 26px;
+	margin-bottom: 0;
+	margin-left: 30px;
+}
+
+.section-div-heading--about_us {
+	color: white;
+	font-family: HarabaraBold;
+	font-size: 26px;
+	margin-bottom: 0;
+	margin-left: 30px;
+}
+
+.section-div--feature {
+	display: inline-block;
+	width: 325px;
+	height: 205px;
+	background-color: rgba(255, 255, 255, 0.1);
+	margin: 55px;
+	margin-left: 22%;
+}
+
+.section-div--about_us {
+	display: inline-block;
+	width: 325px;
+	height: 205px;
+	background-color: rgba(255, 255, 255, 0.1);
+	margin: 55px;
+}
+
+/* --- SECTION PORTFOLIO --- */
+
+.section--portfolio {
+	height: 1500px;
+	background-color: white;
+	background-image: url("../images/background_black_wall_portfolio.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.heading4--portfolio {
+	color: #019edb;
+	font-family: Lato;
+	font-size: 42px;
+	letter-spacing: 0.025em;
+	margin: 0;
+	z-index: 1;
+	padding-top: 52%;
+	position: relative;
+}
+
+.heading3--2--portfolio {
+	font-family: Lato;
+	font-size: 83px;
+	margin-bottom: 120px;
+	color: #019edb;
+	margin: 0;
+	position: absolute;
+	top: 43%;
+    left: 24%;
+    background-image: url("../images/romb2.png");
+    background-repeat: no-repeat;
+    width: 271px;
+    height: 271px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.div--portfolio {
+	background-image: url("../images/woman_portfolio.png");
+	height: 1189px;
+	text-align: center;
+}
+
+.sectiong-heading4--text {
+	font-family: Lato-regular;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+	white-space: pre-line;
+	z-index: 2;
+	position: relative;
+}
+
+.white_romb {
+	position: absolute;
+	top: 44%;
+    right: 29%;
+    z-index: 1;
+}
+
+.left_woman {
+	position: absolute;
+    top: 47%;
+    left: 100px;
+}
+
+.right_woman {
+	position: absolute;
+	top: 47%;
+	right: 100px;
+}
+
+.heading5-lorem_ipsum_dolor {
+	font-family: Lato-heavy;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 0.025em;
+	text-align: center;
+}
+
+.div--lorem_ipsum_dolor--text {
+	white-space: pre-line;
+	color: #e5e5e5;
+	font-size: 18px;
+	text-align: center;
+	font-family: Lato-light;
+}
+
+/* --- HOW IT WORK? --- */
+
+main.How_it_work {
+	height: 650px;
+	background-color: black;
+	background-image: url("../images/woman_how_it_work.png");
+}
+
+.main-heading6--3_how_it_work {
+	margin: 0;
+	font-family: Lato-heavy;
+	color: white;
+	white-space: pre-line;
+	text-align: center;
+	padding-top: 140px;
+	font-size: 38px;
+	background-image: url("../images/romb3.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.main-heading6--3_how_it_work::first-letter {
+	font-size: 64px;
+	color: #019edb;
+}
+
+ul.container-flex {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+}
+
+ul.container-flex>li {
+	white-space: pre-line;
+	color: white;
+	font-family: Lato-light;
+	font-size: 16px;
+}
+
+ul.container-flex>li::first-line {
+	color: #019edb;
+	line-height: 24px;
+	letter-spacing: 0.025em;
+	font-size: 18px;
+	font-family: Lato;
+}
+
+.main-heading7--lorem_ipsum_dolor {
+	color: white;
+	font-family: Lato;
+	font-size: 24px;
+	letter-spacing: 0.025em;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+/* --- TESTIMONIALS --- */
+
+section.section--testimonials {
+	height: 620px;
+	background-image: url("../images/two_girls.png");
+}
+
+.section-heading8--4_TESTIMONIALS {
+	margin: 0;
+	font-family: Lato-heavy;
+	color: white;
+	white-space: pre-line;
+	text-align: center;
+	padding-top: 140px;
+	font-size: 38px;
+	background-image: url("../images/romb3.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.section-heading8--4_TESTIMONIALS::first-letter {
+	font-size: 64px;
+	color: #019edb;
+}
+
+.section-heading9--lorem_ipsum_dolor {
+	color: white;
+	font-family: Lato;
+	font-size: 24px;
+	letter-spacing: 0.025em;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+div.flex-container {
+	display: flex;
+	justify-content: center;
+}
+div.flex-container>div {
+	color: white;
+	white-space: pre-line;
+	font-family: Lato-regular;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.flex-item1 {
+	text-align: end;
+	padding-right: 85px;
+}
+
+.flex-item3 {
+	padding-left: 85px;
+}
+
+/* --- SOCIAL ICONS --- */
+
+.ul--social_networks {
+	height: 155px;
+	background-image: url("../images/blue_background.png");
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	justify-content: center;
+}
+
+.ul--social_networks>li {
+	width: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+/* --- FOOTER --- */
+
+footer {
+	height: 520px;
+	background-color: #232323;
+	background-image: url('../images/footer_wall.png');
+}
+
+.footer-heading10--5_get_in_touch {
+	margin: 0;
+	font-family: Lato-heavy;
+	color: white;
+	white-space: pre-line;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 38px;
+	background-image: url("../images/romb3.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-bottom: 55px;
+}
+
+.footer-heading10--5_get_in_touch::first-letter {
+	font-size: 64px;
+	color: #019edb;
+}
+
+ul.footer-flex {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+}
+
+ul.footer-flex>li>address {
+	font-family: Lato-regular;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.025em;
+	color: white;
+	font-style: normal;
+	white-space: pre-line;
+}
+
+ul.footer-flex>li {
+	padding-left: 42px;
+}
+
+ul.footer-flex>li>h4 {
+	font-family: Lato;
+	font-size: 17px;
+	line-height: 24px;
+	letter-spacing: 0.025em;
+	color: white;
+}
+
+ul.footer-flex>li:nth-child(odd) {
+	background-image: url('../images/blue_romb_bg.png');
+    height: 90px;
+    width: 90px;
+    background-position: center;
+}
+
+.footer-flex-item1>img {
+    margin-top: 20px;
+    margin-left: 36px;
+}
+
+.footer-flex-item3>img {
+	margin-left: 41px;
+    margin-top: 15px;
+}
+
+.footer-flex-item5>img {
+	margin-left: 35px;
+	margin-top: 8px;
+}
+
+ul {
+	padding-inline-start: 0;
+}
+
+/* --- BUTTON TOP ---*/
+
+.topbutton {
+	margin: auto;
+    display: block;
+    margin-top: 83px;
+    padding: 0;
+    border: none;
+    background-color: rgba(0, 50, 50, 0);
+    background-image: url('../images/buttom_footer.png');
+    height: 62px;
+    width: 126px;
+    background-position: bottom;
+}
+
+.topNubex {
+	text-decoration: none;
+	font-family: Lato;
+	font-size: 17px;
+	color: white;
+	line-height: 24px;
+	letter-spacing: 0.025em;
+	display: block;
+    margin-top: 20px;
+}
+
