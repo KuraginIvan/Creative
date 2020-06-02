@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript">
+		$(function() {
+		$(window).scroll(function() {
+		if($(this).scrollTop() != 0) {
+		$('#toTop').fadeIn();
+		} else {
+		$('#toTop').fadeOut();
+		}
+		});
+		$('#toTop').click(function() {
+		$('body,html').animate({scrollTop:0},800);
+		});
+		});
+		</script>
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="Styles/Style.css">
@@ -34,7 +49,11 @@
 					soluta euism od isea, hiea unereusams
 					ullu tpamco detore  aer rper quo, utam
 					signiferuuue uo. Brute inani in prom in
-					</p>
+					<span class="content hidden">Lorem ipsum dolor  mero moleamet,
+					soluta euism od isea, hiea unereusams
+					ullu tpamco detore  aer rper quo, utam
+					signiferuuue uo. Brute inani in prom in</span></p>
+					<button class="btn" type="button">READ MORE</button>
 				</section>
 				<img src="../images/woman.png" alt="woman" class="woman_romb">
 			</header>
@@ -59,7 +78,11 @@
 						Lorem ipsum dolor  mero moleamet,	soluta
 						euism od isea, hiea unereusams ullu
 						tpamco detore  aer rper quo, utam sig
-						-niferuuue uo. Brute inani in prom in.Lorem</p>
+						-niferuuue uo. Brute inani in prom in.Lorem
+						<span class="hidden-about_us content_about_us">Lorem ipsum dolor  mero moleamet,	soluta
+						euism od isea, hiea unereusams ullu
+						tpamco detore  aer rper quo, utam sig
+						-niferuuue uo. Brute inani in prom in.Lorem</span></p>
 					</div>
 					<img src="/images/future_line.png" alt="white-line" class="future_line">
 					<div class="section-div--about_us">
@@ -68,9 +91,13 @@
 						Lorem ipsum dolor  mero moleamet,	soluta
 						euism od isea, hiea unereusams ullu
 						tpamco detore  aer rper quo, utam sig
-						-niferuuue uo. Brute inani in prom in.Lorem</p>
+						-niferuuue uo. Brute inani in prom in.Lorem
+						<span class="hidden-about_us content_about_us">Lorem ipsum dolor  mero moleamet,	soluta
+						euism od isea, hiea unereusams ullu
+						tpamco detore  aer rper quo, utam sig
+						-niferuuue uo. Brute inani in prom in.Lorem</span></p>
 					</div>
-					<button class="section-button--read_more">READ_MORE</button>
+					<button class="btn-lorem_ipsum">READ MORE</button>
 				</div>
 			</section>
 			<section class="section--portfolio">
@@ -81,8 +108,12 @@
 					<p class="sectiong-heading4--text">Lorem ipsum dolor  mero moleamet,
 					soluta euism od isea, hiea unereusams
 					ullu tpamco detore  aer rper quo,utam
-					signiferuuue uo. Brute inani in.</p>
-					<button class="section-button--read_more">READ_MORE</button>
+					signiferuuue uo. Brute inani in
+					<span class="content-portfolio hidden-portfolio">Lorem ipsum dolor  mero moleamet,
+					soluta euism od isea, hiea unereusams
+					ullu tpamco detore  aer rper quo,utam
+					signiferuuue uo. Brute inani in</span></p>
+					<button class="btn-portfolio">READ MORE</button>
 				</div>
 				<img src="/images/left_woman.png" alt="woman" class="left_woman">
 				<img src="/images/right_woman.png" alt="woman" class="right_woman">
@@ -133,15 +164,24 @@
 					<div class="flex-item1">Lorem ipsum dolor  mero moleamet, soluta euism od
 					isea, hiea unereusams ullu tpamco detore  aer rper
 					quo,utam signiferuuue uo. Brute inani in prom in.Lorem
-					ipsum dolor  mero moleamet, soluta euism od</div>
-					<img src="/images/future_line.png" alt="line" class="flex-item2">
+					ipsum dolor  mero moleamet, soluta euism od
+					<span class="content-flex1 hidden-flex1">Lorem ipsum dolor  mero moleamet, soluta euism od
+					isea, hiea unereusams ullu tpamco detore  aer rper
+					quo,utam signiferuuue uo. Brute inani in prom in.Lorem
+					ipsum dolor  mero moleamet, soluta euism od</span>
+					<button class="btn-testimonials1 btn">READ MORE</button>
+					</div>
+					<img src="/images/future_line.png" alt="line" class="flex-item2" height="158px" width="20px">
 					<div class="flex-item3">Lorem ipsum dolor  mero moleamet, soluta euism od
 					isea, hiea unereusams ullu tpamco detore  aer rper
 					quo,utam signiferuuue uo. Brute inani in prom in.Lorem
-					ipsum dolor  mero moleamet, soluta euism od</div>
+					ipsum dolor  mero moleamet, soluta euism od
+					<span class="content-flex3 hidden-flex3">Lorem ipsum dolor  mero moleamet, soluta euism od
+					isea, hiea unereusams ullu tpamco detore  aer rper
+					quo,utam signiferuuue uo. Brute inani in prom in.Lorem
+					ipsum dolor  mero moleamet, soluta euism od</span>
+					<button class="btn-testimonials2 btn">READ MORE</button>
 				</div>
-				<button class="flex-item4">READ MORE</button>
-				<button class="flex-item5">READ MORE</button>
 			</section>
 			<ul class="ul--social_networks">
 			    <li><a href="http://www.facebook.com"><img src='/images/fb_icon.png'></a></li>
@@ -175,7 +215,13 @@
 						My Country 123456</address>
 					</li>
 				</ul>
-				<button class="topbutton"><a href="index.html" title="Вернуться к началу страницы" class="topNubex">TOP</a></button>
+				<button class="topbutton" id="toTop">TOP</button>
 			</footer>
 		</div>
+		<script src="/js/button_about-us.js"></script>
+		<script src="/js/button_testimonials.js"></script>
+		<script src="/js/button_testimonials2.js"></script>
+		<script src="/js/button.js"></script>
+		<script src="/js/button_portfolio.js"></script>
+		<DIV ID = "toTop" > ^ Наверх </ DIV >
     </body>

@@ -280,12 +280,14 @@ p.section-heading2--text {
 	color: white;
 	white-space: pre-line;
 	margin-left: 30px;
+	margin-bottom: 30px;
 }
 
 .section-div--about_us--text {
 	color: white;
 	white-space: pre-line;
 	margin-left: 30px;
+	margin-bottom: 30px;
 }
 
 .container--why_you_chooise_us {
@@ -314,7 +316,6 @@ p.section-heading2--text {
 .section-div--feature {
 	display: inline-block;
 	width: 325px;
-	height: 205px;
 	background-color: rgba(255, 255, 255, 0.1);
 	margin: 55px;
 	margin-left: 22%;
@@ -323,9 +324,9 @@ p.section-heading2--text {
 .section-div--about_us {
 	display: inline-block;
 	width: 325px;
-	height: 205px;
 	background-color: rgba(255, 255, 255, 0.1);
 	margin: 55px;
+	margin-bottom: 30px;
 }
 
 /* --- SECTION PORTFOLIO --- */
@@ -345,7 +346,7 @@ p.section-heading2--text {
 	letter-spacing: 0.025em;
 	margin: 0;
 	z-index: 1;
-	padding-top: 52%;
+	padding-top: 48%;
 	position: relative;
 }
 
@@ -639,6 +640,12 @@ ul {
     height: 62px;
     width: 126px;
     background-position: bottom;
+    font-family: Lato-regular;
+    font-size: 17px;
+    color: white;
+    line-height: 75px;
+    letter-spacing: 0.025em;
+    outline: 0;
 }
 
 .topNubex {
@@ -650,4 +657,97 @@ ul {
 	letter-spacing: 0.025em;
 	display: block;
     margin-top: 20px;
+}
+
+span.hidden {
+	display: none;
+}
+
+.btn {
+	border-radius: 20px;
+	height: 38px;
+	width: 125px;
+	background-color: #019edb;
+	font-size: 15px;
+	font-family: Lato;
+	letter-spacing: 0.025em;
+	color: white;
+	border-width: 0;
+	outline: 0;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.btn-lorem_ipsum {
+	border-radius: 20px;
+	height: 38px;
+	width: 125px;
+	background-color: #019edb;
+	font-size: 15px;
+	font-family: Lato;
+	letter-spacing: 0.025em;
+	color: white;
+	border-width: 0;
+	outline: 0;
+	margin: auto;
+	display: block;
+}
+
+.btn:hover {
+	box-shadow: 0 0 4px 2px #fff;
+}
+
+.btn-lorem_ipsum:hover {
+	box-shadow: 0 0 4px 2px #fff;
+}
+
+.content {
+	margin-bottom: 20px;
+}
+
+.btn-portfolio {
+	z-index: 2;
+    position: relative;
+    border-radius: 20px;
+	height: 38px;
+	width: 125px;
+	background-color: #019edb;
+	font-size: 15px;
+	font-family: Lato;
+	letter-spacing: 0.025em;
+	color: white;
+	border-width: 0;
+	outline: 0;
+}
+
+.btn-portfolio:hover {
+	box-shadow: 0 0 4px 2px black;
+}
+
+.hidden-portfolio {
+	display: none;
+}
+
+.btn-testimonials1 {
+	margin-top: 20px;
+}
+
+.btn-testimonials2 {
+	margin-top: 20px;
+}
+
+#toTop {
+	color: white;
+}
+
+.hidden-about_us {
+	display: none;
+}
+
+.hidden-flex1 {
+	display: none;
+}
+
+.hidden-flex3 {
+	display: none;
 }
